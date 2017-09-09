@@ -1,0 +1,52 @@
+
+#panel{
+  margin-left: 300px;
+}
+#txtSeccion{
+  
+  width: 20%;
+}
+
+#btnSeccion{
+  margin-top: 5px;
+}
+
+
+
+
+hr{
+  color: black;
+}
+
+
+
+
+
+table{
+ 
+  margin-left: 300px;
+
+}
+
+tbody{
+  width: 10px;
+}
+
+th{
+  width: 1%;
+  font-size: 1.5em;
+  
+
+}
+td{
+  width: 1%;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif; 
+ 
+ }
+
+#eliminaTitle{
+  margin-left: 300px;
+
+}
+
+

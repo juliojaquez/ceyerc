@@ -1,0 +1,157 @@
+body{
+	font-family: "Georgia";
+	background-size: cover;
+	background-image: url(../img/equipomedico/foto3.jpg);
+}
+
+nav {
+  max-width: 1370px;
+  /*mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);*/
+
+}
+
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  padding: 10px;
+}
+
+nav ul li a {
+  padding: 10px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+
+}
+
+nav ul li a:hover {
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);*/
+  background: rgba(255, 255, 255, 0.1);
+
+  color: rgba(23, 53, 12, 0.7);
+  /*color: black;*/
+}
+
+
+
+.img-logo{
+
+	margin-left: 150px;
+	width: 250px;
+}
+
+/*cosas del julio*/
+.categorias{
+  color: black;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 120px;
+  width: 50%;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 5em;
+  margin-top: 15px;
+  background: rgba(218,230,340, .5);
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+
+
+}
+
+.categorias:hover {
+  color: white;
+  background: rgba(0,0,0, .85);
+   
+}
+
+a {
+    color: rgb(46, 82, 130);
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:white; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#prenavegador{
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+aside{
+  position: absolute;
+  display: inline-block;
+  background-color: orange;
+  width: 20%;
+  height: 100%;
+  text-align: left;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+
+}
+
+aside ul li a{
+  color: black;
+  text-decoration: none;
+  border: solid 5px;
+  border-radius: 15px;
+  
+}
+
+#menuTitle{
+  text-align: center;
+}
+
+aside ul li{
+  font-size: 3em;
+  list-style-type: none;
+  margin-top: 5px;
+  width: 30%;
+
+}
+
+#divProductos{
+margin-top: 10px;
+width: 350px;
+display: inline-block;
+border-color: red;
+background-color: transparent;
+
+
+
+}
+
+#idTexto{
+  position: relative;
+  text-align: left;
+  /*display: block;*/
+  margin-top: 10px;
+  margin-left: 230px;
+  font-family: Tahoma;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#divProductos img{
+  border-radius: 40px;
+}
+
+#divProductos button{
+  margin-left: 250px;
+  margin-top: 5px;
+  
+}
+
+
+
