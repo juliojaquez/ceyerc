@@ -1,8 +1,9 @@
 
 #panel{
-  margin-left: 300px;
+  margin-left: 500px;
+    
 }
-#txtSeccion{
+#txtSeccion, #txtProducto,  #txtSeccion, #num_seccion{
   
   width: 20%;
 }
@@ -24,7 +25,7 @@ hr{
 
 table{
  
-  margin-left: 300px;
+  margin-left: 400px;
 
 }
 
@@ -45,7 +46,7 @@ td{
  }
 
 #eliminaTitle{
-  margin-left: 300px;
+  margin-left: 400px;
 
 }
 

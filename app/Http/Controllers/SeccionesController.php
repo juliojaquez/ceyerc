@@ -43,7 +43,7 @@ class SeccionesController extends Controller
           'des_nombreseccion' => $request['des_seccion'],
           ]);
 
-        return redirect::to('/');
+        return redirect::to('/admin/secciones');
     }
 
     /**
@@ -68,7 +68,7 @@ class SeccionesController extends Controller
         
         $deletedRows = Secciones::where('idSeccion', $id)->delete();
 
-        return redirect::to('/');
+        return redirect::to('/admin/secciones');
     }
 
     /**

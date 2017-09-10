@@ -12,6 +12,7 @@ class Productos extends Model
      * @var array
      */
     protected $table = 'productos';
+    protected $fillable = ['name', 'idSeccion'];
     
     
 

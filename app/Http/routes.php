@@ -21,6 +21,13 @@ Route::get('/admin', function () {
     return view('admin.indexadmin');
 });
 
+Route::get('/empresa', function() {
+	return view('paginasestaticas.quienessomos');
+});
+
+Route::get('/contactanos', function() {
+	return view('paginasestaticas.contactanos');
+});
 
 Route::get('/', 'PaginasEstaticasController@indexsecciones');
 Route::get('catalogo_productos/{id}', 'PaginasEstaticasController@indexproductos');
@@ -40,6 +47,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
 
     Route::resource('/secciones', 'SeccionesController');
+    Route::resource('/productos', 'ProductoController');
 
 });
 /*

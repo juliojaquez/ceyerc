@@ -29,13 +29,10 @@
         <a href="/">Inicio</a>
       </li>
       <li>
-        <a href="#">¿Quienes somos?</a>
+        <a href="/empresa">¿Quienes somos?</a>
       </li>
       <li>
-        <a href="#">Contáctenos</a>
-      </li>
-      <li>
-        <a href="#">Contact</a>
+        <a href="/contactanos">Contáctenos</a>
       </li>
     </ul>
 </nav>

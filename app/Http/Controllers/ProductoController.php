@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Productos;
 use Illuminate\Support\Facades\DB;
+use Redirect;
 class ProductoController extends Controller
 {
     /**
@@ -16,8 +17,8 @@ class ProductoController extends Controller
     {
         //$productos = DB::table('productos')->get();
         $productos = Productos::all();
-        var_dump($productos);
-        return view('welcome', compact('productos'));
+        //var_dump($productos);
+        return view('admin.productos.CRUDproductos', compact('productos'));
     }
 
     /**
@@ -38,7 +39,12 @@ class ProductoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Productos::create([ 
+          'name' => $request['des_producto'],
+          'idSeccion' => $request['num_seccionproducto']
+          ]);
+
+        return redirect::to('/admin/productos');
     }
 
     /**
@@ -60,7 +66,9 @@ class ProductoController extends Controller
      */
     public function edit($id)
     {
-        //
+        $deletedRows = Productos::where('id', $id)->delete();
+
+        return redirect::to('/admin/productos');
     }
 
     /**

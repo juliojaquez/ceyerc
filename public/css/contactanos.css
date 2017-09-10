@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url(../img/equipomedico/foto5.jpg);
+}
+
+div.wrapper{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+	margin-left: 100px;
+}
+div.description{
+	 /* absolute position (so we can position it where we want)*/
+	
+	/* styling bellow */
+	background-color:black;
+	color:white;
+	opacity:0.6; /* transparency */
+	filter:alpha(opacity=70); /* IE transparency */
+}
+p.description_content{
+	padding:10px;
+	margin:0px;
+	font-size: 30px;
+}
